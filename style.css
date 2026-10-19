@@ -243,37 +243,13 @@ img {
     .txtr {
         text-align: right;
     }
-
-/* Mobile layout */
-@media (max-width: 700px) {
-    body {
-        padding: 12px;
-        font-size: 15px;
+    .txtc {
+        text-align: center;
+    }
+    .txtl {
+        text-align: left
     }
 
-    main, .container {
-        padding: 16px;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1.45rem;
-    }
-
-    /* Allow wide tables to scroll */
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    th, td {
-        padding: 10px 12px;
-    }
-    
     /* Buttons */
 .btn {
     display: inline-block;
@@ -316,7 +292,7 @@ img {
     box-shadow: none;
 }
 
-/* Optional button variants */
+/* Button Variants */
 .btn-secondary {
     background: #101e31;
     border-color: #45617f;
@@ -343,4 +319,36 @@ img {
 .btn-success:hover {
     background: linear-gradient(135deg, #17644b, #218363);
 }
+
+/* Mobile layout */
+@media (max-width: 700px) {
+    body {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    main, .container {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.45rem;
+    }
+
+    /* Allow wide tables to scroll */
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    th, td {
+        padding: 10px 12px;
+    }
+    
+
 }
